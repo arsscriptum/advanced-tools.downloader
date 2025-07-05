@@ -1,0 +1,9 @@
+;!@Install@!UTF-8!
+Title="Download Helper Self-Extracting Archive"
+BeginPrompt="Press OK to extract Download Helper files."
+ExtractTitle="Extracting Download Helper..."
+InstallPath="%USERPROFILE%\Downloads\DownloadHelper"
+GUIMode="0"
+OverwriteMode="2"
+RunProgram="advanced-tools.downloader\run.bat"
+;!@InstallEnd@!
